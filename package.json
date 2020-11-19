@@ -1,0 +1,26 @@
+{
+  "name": "vue-express-mongo",
+  "version": "1.0.0",
+  "description": "full-stack",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "start": "server/index.js"
+  },
+  "keywords": [
+    "vue",
+    "express",
+    "mongo"
+  ],
+  "author": "Andrei <andrski2009@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
