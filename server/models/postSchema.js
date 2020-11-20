@@ -7,11 +7,11 @@ const postSchema = new Schema({
         type: Number,
         required: true,
     },
-    title: {
+    name: {
         type: String,
         required: true,
     },
-    content: {
+    description: {
         type: String,
         required: true,
     },

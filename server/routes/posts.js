@@ -45,8 +45,8 @@ router.post('/create', async (req, res)=>{
         
         const post = new Post({
             _id: req.body.id,
-            title: req.body.title,   //req.body.titleText value from browser
-            content: req.body.content, //req.body.content value from browser
+            name: req.body.title,   //req.body.titleText value from browser
+            description: req.body.description, //req.body.content value from browser
             url: req.body.url
         });
     
